@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:hsl(217, 54%, 11%) ;
+}
+
+#card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 450px;
+    width: 300px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 5px 15px hsla(215, 32%, 27%);;
+}
+
+
+.nft-imagem {
+    height: 280px;
+    margin: 20px;
+    width: 300px;
+    position: relative;
+    bottom: 5%;
+    border-radius: 10px;
+}
+
+.nft {
+    position: relative;
+    right: 25%;
+    bottom: 7%;
+    padding: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+p {
+    position: relative;
+    right: 0%;
+    bottom: 6%;
+    width: 300px;
+    line-break: normal;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(216, 50%, 16%);
+    
+}
+
+.preco {
+    position: relative;
+    right: 38%;
+    bottom: 4%;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.day {
+    position: relative;
+    left: 40%;
+    bottom: 8.5%;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+}
+
+.foto {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    right: 80%;
+    bottom: 2%;
+    border: 2px solid white;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.perfil {
+    position: relative;
+    bottom: 0%;
+    color: hsl(215, 51%, 70%);
+    right: 4%;
+    background-color: hsl(216, 50%, 16%);
+}
+
+span {
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+}
+
+
